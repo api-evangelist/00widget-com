@@ -1,4 +1,4 @@
-# 00widget-com
+# 00Widget
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,134 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-00widget-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://00widget.com/
+00Widget provides native status widgets for Apple devices and Meta Quest, allowing agents and automations to display progress, results, and approvals directly on the Lock Screen, Dynamic Island, Apple TV, and Meta Quest. The platform offers real‑time visibility of agent activities, integrates with existing workflows, and supports subscription‑based access, delivering a native status layer that keeps users informed without opening a chat.
+
+**Areas:** Apple · Meta Quest · Widgets · Agent · MCP · Status
+
+## 00Widget on APIs.io
+
+Everything profiled for 00Widget is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/00widget-com/](https://apis.io/providers/00widget-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [00Widget API](https://apis.io/apis/00widget-com/00widget-com-api/) — 00Widget API as documented publicly: 18 operations. Contract generated from the documentation by API Evangelist (2026-10-31); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetV1StatusResponse](https://apis.io/schemas/00widget-com/00widget-com-get-v1-status-response/)
+- [PostDashboardRequest](https://apis.io/schemas/00widget-com/00widget-com-post-dashboard-request/)
+- [PostV1ActionsRequest](https://apis.io/schemas/00widget-com/00widget-com-post-v1-actions-request/)
+- [PostV1LiveActivitiesEndRequest](https://apis.io/schemas/00widget-com/00widget-com-post-v1-live-activities-end-request/)
+- [PostV1LiveActivitiesUpdateRequest](https://apis.io/schemas/00widget-com/00widget-com-post-v1-live-activities-update-request/)
+- [PutV1IntegrationsWebhooksRequest](https://apis.io/schemas/00widget-com/00widget-com-put-v1-integrations-webhooks-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [00Widget Com Context](https://apis.io/jsonld/00widget-com/00widget-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [00Widget API Rules](https://apis.io/rules/00widget-com/00widget-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [00Widget Com Authentication](https://apis.io/security/00widget-com/00widget-com-authentication/)
+- [00Widget Com Domain Security](https://apis.io/security/00widget-com/00widget-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [00Widget Com Scopes](https://apis.io/scopes/00widget-com/00widget-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [00Widget Com Plans Pricing](https://apis.io/plans/00widget-com/00widget-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [00Widget Com Rate Limits](https://apis.io/rate-limits/00widget-com/00widget-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://00widget.com/)
+- [Documentation](https://api.00widget.com/)
+- [Getting started](https://api.00widget.com/)
+- [API reference](https://api.00widget.com/)
+- [Support](https://00widget.com/support)
+- [Terms of service](https://00widget.com/terms)
+- [Privacy policy](https://00widget.com/privacy)
+- [GitHub](https://github.com/morais/00widget)
+
+## API Evangelist rating
+
+**Kin Score 48.0** — developing · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.7 |
+| Contract quality | 53.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 45.2 |
+| Access clarity | 34.2 |
+
+**Agent readiness 41.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 34.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/00widget-com/](https://apis.io/providers/00widget-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for 00Widget: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/00widget-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
