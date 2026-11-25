@@ -66,7 +66,7 @@
 
 00Widget provides native status widgets for Apple devices and Meta Quest, allowing agents and automations to display progress, results, and approvals directly on the Lock Screen, Dynamic Island, Apple TV, and Meta Quest. The platform offers real‑time visibility of agent activities, integrates with existing workflows, and supports subscription‑based access, delivering a native status layer that keeps users informed without opening a chat.
 
-**Areas:** Apple · Meta Quest · Widgets · Agent · MCP · Status
+**Areas:** Apple · Meta Quest · Widgets · Agents · MCP · Status
 
 ## 00Widget on APIs.io
 
@@ -79,6 +79,12 @@ Everything profiled for 00Widget is published on APIs.io rather than in this rep
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [00widget-com-mcp.yml](https://apis.io/servers/00widget-com/00widget-com-mcp-yml/)
 
 #### JSON Schema (6)
 
@@ -107,26 +113,26 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [00Widget Com Authentication](https://apis.io/security/00widget-com/00widget-com-authentication/)
-- [00Widget Com Domain Security](https://apis.io/security/00widget-com/00widget-com-domain-security/)
+- [00Widget Authentication](https://apis.io/security/00widget-com/00widget-com-authentication/)
+- [00Widget Domain Security](https://apis.io/security/00widget-com/00widget-com-domain-security/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [00Widget Com Scopes](https://apis.io/scopes/00widget-com/00widget-com-scopes/)
+- [00Widget Scopes](https://apis.io/scopes/00widget-com/00widget-com-scopes/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [00Widget Com Plans Pricing](https://apis.io/plans/00widget-com/00widget-com-plans-pricing/)
+- [00Widget Plans Pricing](https://apis.io/plans/00widget-com/00widget-com-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [00Widget Com Rate Limits](https://apis.io/rate-limits/00widget-com/00widget-com-rate-limits/)
+- [00Widget Rate Limits](https://apis.io/rate-limits/00widget-com/00widget-com-rate-limits/)
 
 ## Where to find this API
 
@@ -143,18 +149,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 48.0** — developing · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 34.9** — thin · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 56.7 |
-| Contract quality | 53.5 |
-| Contract governance | 79.1 |
-| Operational transparency | 5.3 |
+| Discoverability | 63.3 |
+| Contract quality | 24.7 |
+| Contract governance | 22.0 |
+| Operational transparency | 4.8 |
 | Developer ergonomics | 45.2 |
-| Access clarity | 34.2 |
+| Access clarity | 40.4 |
 
-**Agent readiness 41.1** — agent-ready (gated down from agent-native)
+**Agent readiness 38.1** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -179,8 +185,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 34.3** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 28.4** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/00widget-com/](https://apis.io/providers/00widget-com/).
 
